@@ -1,0 +1,8 @@
+History
+    Donald Knuth
+        - Born in Milwaukee, WI
+        - Professor Emeritus at Stanford University
+        - Father of the analysis of algorithms
+        - The Art of Computer Programming, Volume 2
+            - Knuth's publisher switched to a digital typesetting program
+            - Knuth could not stand how ugly it was and decided to do better
