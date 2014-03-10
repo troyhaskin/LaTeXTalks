@@ -1,15 +1,20 @@
-TeX, Part I
-    How to pronounce it?
-        - Abbreviation of the Greek word "techne" meaning "art" (root of "technology").
-        - Pronounced "tek"
 
-    What is it?
-        - Program 
-            - Application that reads an input file and produces a document
-            - More on this later
-        - Typesetting language
-            - Targeted at typesetting a document, especially with a lot of math.
-            - Turing complete language (some people have too much fun with it).
+Outline
+    Hello
+    History
+    TeX
+    LaTeX
+    Motivations
+    Examples
+
+Hello
+    - Troy Haskin
+        - Born in Milwaukee, WI
+        - Senior Graduate Student
+        - Advocater of Fortran, malty beers, whiskey, and linear combinations of extremes
+        
+    - (La)TeX
+        - 
 
 
 History
@@ -25,10 +30,81 @@ History
             - After a year of development ... 
 
     - TeX is born
-        - One year development (pre-release version)
+        - One-year initial development (pre-release version)
         - A lot of research into typography
         - Goal: generate beautiful documents
 
 
-TeX, Part II
+TeX
+    - How to pronounce it?
+        - Abbreviation of the Greek word "techne" meaning "art" (root of "technology").
+        - Pronounced "tek"
+
+    - What is it?
+        - Program 
+            - Application that reads an input file and produces a document
+            - More on this later
+        - Typesetting language
+            - Targeted at typesetting a document, especially with a lot of math.
+            - Turing complete language (some people have too much fun with it).
+            - Difficult to pick-up; harder to master.
+            - Typographically and structurally: a lot of onus on the user.
+
+LaTeX (A Document Preparation System)
+    - How to pronounce it?
+        - Simple concatenation of "La" and "TeX"
+        - Pronounced "Lay-tek" or "Lah-tek" (LaTeX3 Team)
+
+    - What is it?
+        - Developed by Leslie Lamport (the "La") in mid-1980s
+        - Collection of utilities and rules for sound typography
+        - High-level conventions for document structure
+        - Facilities for user-defined packages for niche purposes (CTAN)
+    
+    
+Motivations ("With great power ...")
+    - Documents look damn good
+    - Free and open source
+    - Users write text files which are hard to corrupt and easy to share
+    - Puts emphasis on structure and content
+    - Ability to make commands and templates to lower repetition
+    - Extremely powerful for making long documents
+        - Separate file includes
+        - Tables, figures, etc. not allowed to break across pages
+        - Cross-referencing is extremely easy (and fairly reliable)
+        - "Clickable" PDFs possible and very easy
+        - Create "short cuts" for often used phrases, equations, etc.
+        - Excellent bibliography and index maker (more later)
+    - Type what you mean
+    - There's a package for that.
+    - Easier to version control than binary/obfuscated-XML files (e.g, .doc/.docx)
+
+
+Caveats ("... comes great responsibility.")
+    - Bit of a learning curve (same with Word, Pages, etc. but usually ignored)
+    - Best learned by doing, trying, asking, and learning (if needed, also web searching)
+    - Requires write-build-view and repeat mentality
+    - "Easy stuff" can be hard (if packages don't exist)
+    - Document creation throws errors and warnings
+        - Forget a closing brace
+        - Misspell a command
+        - Under-/over-fill a box
+        - Try to do something clever
+        - others
+    - Forced to use word processors due to LCD.
+
+
+
+
+******************************  LaTeX Examples  ******************************
+
+
+
+
+    
+    
+    
+    
+    
+    
     
